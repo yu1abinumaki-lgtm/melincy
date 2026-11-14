@@ -1,0 +1,137 @@
+@media (min-width: 1600px) { :root { --container: 1360px; } .hero-section { padding-top: 88px; } h1 { font-size: 92px; } }
+@media (max-width: 1100px) {
+  .container { width: calc(100% - 64px); }
+  .header-inner { gap: 24px; }
+  .navigation { margin-left: 0; gap: 24px; }
+  .header-actions { gap: 16px; }
+  .light-toggle > span:not(.toggle-indicator) { display: none; }
+  .hero-section { padding-top: 56px; }
+  h1 { font-size: clamp(56px,6.4vw,72px); }
+  .hero-intro { font-size: 15px; }
+  .hero-buttons { gap: 8px; }
+  .button { padding-inline: 16px; gap: 16px; }
+  .orbit-label { padding: 8px 16px; gap: 8px; }
+  .orbit-label strong { font-size: 11px; }
+  .label-interface { top: 12%; left: 0; }
+  .label-server { bottom: 16%; right: 0; }
+  .section { padding-block: 88px; }
+  .empty-project-copy { padding: 32px; }
+  .about-layout { gap: 48px; }
+  .about-copy > p:not(.about-lead) { font-size: 16px; }
+  .identity-card { padding: 32px; }
+  .identity-info h3 { font-size: 24px; }
+  .technology { grid-template-columns: 24px .9fr .8fr 1.6fr; gap: 24px; padding-inline: 8px; }
+  .technology h3 { font-size: 24px; }
+  .stack-footnote > span { display: none; }
+}
+@media (max-width: 800px) {
+  html { scroll-padding-top: 96px; }
+  .container { width: calc(100% - 48px); }
+  .header-inner { height: 72px; gap: 16px; }
+  .brand { font-size: 21px; gap: 8px; }
+  .brand-symbol { width: 32px; height: 32px; font-size: 23px; border-radius: 8px; }
+  .header-actions { gap: 8px; }
+  .header-contact { display: none; }
+  .menu-toggle { display: grid; place-items: center; width: 48px; height: 48px; padding: 8px; background: transparent; border-radius: 8px; }
+  .menu-toggle > .icon { width: 24px; height: 24px; }
+  .navigation { display: none; position: absolute; top: 72px; left: 0; right: 0; background: #110d18; border-bottom: 1px solid #433052; padding: 16px 24px 24px; flex-direction: column; align-items: stretch; gap: 0; }
+  .navigation.is-open { display: flex; }
+  .navigation > a { padding: 16px 0; font-size: 16px; }
+  .navigation .mobile-contact { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--line); margin-top: 8px; color: var(--accent); }
+  .hero-section { padding-top: 40px; }
+  .hero-layout { grid-template-columns: 1fr; gap: 8px; }
+  .hero-copy { padding: 8px 0; }
+  h1 { font-size: clamp(48px,9vw,72px); }
+  .hero-eyebrow { font-size: 12px; margin-bottom: 24px; }
+  .hero-intro { font-size: 16px; margin-top: 24px; }
+  .hero-buttons { gap: 16px; margin-top: 24px; }
+  .hero-note { margin-top: 24px; font-size: 10px; }
+  .hero-art { max-width: 480px; width: 100%; justify-self: center; margin-top: 8px; }
+  .hero-haze { top: 280px; left: calc(50% - 480px); }
+  .label-interface { top: 16%; left: 0; }
+  .label-server { bottom: 19%; right: 0; }
+  .art-caption { font-size: 9px; }
+  .hero-footer { margin-top: 32px; padding-block: 24px; }
+  .hero-footer-center { display: none; }
+  .hero-footer > span { font-size: 8px; }
+  .hero-footer > a { font-size: 10px; gap: 8px; }
+  .section { padding-block: 64px; }
+  .section-heading { display: block; margin-bottom: 32px; }
+  .section-heading > p { margin-top: 24px; padding-bottom: 0; font-size: 14px; max-width: none; }
+  .eyebrow { margin-bottom: 16px; font-size: 9px; }
+  h2 { font-size: clamp(34px,5.7vw,44px); }
+  .empty-project { grid-template-columns: 1fr; }
+  .empty-art { min-height: 320px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .project-window { max-width: 320px; width: 66%; }
+  .empty-project-copy { padding: 32px; }
+  .empty-project-copy h3 { font-size: 34px; margin-top: 24px; }
+  .empty-project-copy > p:not(.sample-note) { max-width: none; font-size: 16px; margin-top: 16px; }
+  .about-layout { grid-template-columns: 1fr; gap: 40px; }
+  .identity-card { display: grid; grid-template-columns: 96px 1fr; gap: 0 24px; align-items: center; }
+  .identity-info { margin-top: 0; }
+  .identity-link { grid-column: 1/-1; margin-top: 24px; padding-top: 16px; }
+  .about-lead { font-size: 28px; }
+  .about-copy > p:not(.about-lead) { font-size: 16px; }
+  .technology { grid-template-columns: 24px 1fr 1fr; gap: 8px 16px; padding: 24px 0; }
+  .technology-category { justify-self: end; font-size: 11px; }
+  .technology > p { grid-column: 2/-1; margin-top: 8px; font-size: 15px; }
+  .technology h3 { font-size: 24px; }
+  .stack-footnote { align-items: flex-start; font-size: 10px; }
+  .stack-footnote .icon { margin-top: 0; }
+  .contact-section { padding: 64px 0 56px; }
+  .contact-overline { font-size: 12px; margin-top: 24px; }
+  .contact-inner h2 { font-size: clamp(36px,6.8vw,52px); }
+  .contact-description { font-size: 15px; }
+  .contact-actions { flex-wrap: wrap; gap: 8px 24px; }
+  .projects-grid { gap: 24px; }
+  .project-body { padding: 24px; }
+  .project-body > strong { font-size: 24px; }
+  .dialog-content { padding: 24px; }
+  .dialog-content h2 { font-size: 30px; }
+}
+@media (max-width: 480px) {
+  .hero-eyebrow { font-size: 11px; }
+  h1 { font-size: clamp(42px,11.3vw,54px); }
+  .hero-buttons { gap: 8px; }
+  .button { font-size: 12px; padding: 16px; gap: 16px; }
+  .hero-note { align-items: flex-start; max-width: 300px; }
+  .hero-note > span { margin-top: 8px; }
+  .orbit-label { padding: 8px; gap: 8px; border-radius: 8px; }
+  .orbit-label strong { font-size: 10px; }
+  .orbit-label .micro-label { font-size: 7px; }
+  .label-icon { width: 24px; height: 24px; border-radius: 4px; }
+  .label-icon > .icon { width: 14px; height: 14px; }
+  .empty-art { min-height: 288px; }
+  .empty-art-index, .empty-art-caption { left: 24px; font-size: 8px; }
+  .project-window { width: 72%; }
+  .window-content { padding: 16px; }
+  .window-content-row { margin-top: 16px; }
+  .window-image { height: 56px; }
+  .empty-project-copy { padding: 32px 24px; }
+  .empty-project-copy h3 { font-size: 32px; }
+  .identity-card { padding: 24px; grid-template-columns: 1fr; gap: 24px; }
+  .identity-monogram { width: 80px; height: 80px; border-radius: 16px; font-size: 52px; }
+  .identity-link { margin-top: 0; }
+  .identity-info h3 { font-size: 25px; }
+  .technology { grid-template-columns: 24px 1fr; }
+  .technology-category { grid-column: 2; justify-self: start; }
+  .technology > p { margin-top: 0; }
+  .contact-actions { flex-direction: column; }
+  .contact-actions .button { width: 100%; max-width: 320px; font-size: 14px; }
+  .missing-contacts { font-size: 9px; }
+  .site-footer { flex-wrap: wrap; gap: 16px; padding-block: 24px; }
+  .site-footer p { order: 3; width: 100%; font-size: 10px; }
+  .back-top { margin-left: auto; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .dialog-top { padding: 8px 16px; }
+}
+@media (max-width: 359px) {
+  .container { width: calc(100% - 32px); }
+  h1 { font-size: 40px; }
+  .hero-intro { font-size: 15px; }
+  .hero-buttons { flex-direction: column; }
+  .hero-buttons .button { width: 100%; }
+  .hero-footer > span { max-width: 120px; }
+  h2 { font-size: 32px; }
+  .contact-inner h2 { font-size: 34px; }
+}
